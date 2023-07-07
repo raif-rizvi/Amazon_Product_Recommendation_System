@@ -81,8 +81,6 @@ Here are the results obtained from various recommendation models used in this pr
 
 ## Licensing, Authors, and Acknowledgements
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Author: Syed Raif Rizvi
 
-Acknowledgements: The dataset used in this project was provided as part of a problem assignment during the [MIT IDSS Certification](https://www.mygreatlearning.com/mit-data-science-and-machine-learning-program?gl_campaign=Eportfolio&gl_source=Linkedin&utm_source=eportfolio).
+Acknowledgements: The dataset and scenario used in this project was provided as part of a problem assignment during the [MIT IDSS Certification](https://www.mygreatlearning.com/mit-data-science-and-machine-learning-program?gl_campaign=Eportfolio&gl_source=Linkedin&utm_source=eportfolio).
