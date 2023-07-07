@@ -21,10 +21,48 @@ Scenario : As a Data Science Manager at Amazon, I was tasked to build a recommen
 
 ## File Descriptions
 The repository contains the following file:
-- `Amazon_Product_Recommendation_System.ipynb`: This is the Jupyter Notebook where all the work is done, which includes data loading, preprocessing, exploratory data analysis, model building, and evaluation.
+- `Amazon_Product_Recommendation_System.ipynb`: This is the Google Colab Notebook where all the work is done, which includes data loading, preprocessing, exploratory data analysis, model building, and evaluation.
 
 ## Results
 We compared different models and found that the optimized Matrix Factorization model-based collaborative filtering (svd_optimized) stood out as a strong performer, offering accurate and personalized recommendations.
+
+Here are the results obtained from various recommendation models used in this project:
+
+**Model Name: User-user similarity-based collaborative filtering: knn_user**
+- RMSE: 1.0250
+- Precision:  0.86
+- Recall:  0.783
+- F_1 score:  0.82
+
+**Model Name: knn_user_optimized**
+- RMSE: 0.9621
+- Precision:  0.852
+- Recall:  0.809
+- F_1 score:  0.83
+
+**Model Name:  Item-item similarity-based collaborative filtering: knn_item**
+- RMSE: 1.0232
+- Precision:  0.835
+- Recall:  0.758
+- F_1 score:  0.795
+
+**Model Name: knn_item_optimized**
+- RMSE: 0.9703
+- Precision:  0.834
+- Recall:  0.799
+- F_1 score:  0.816
+
+**Model Name: Model-based (matrix factorization) collaborative filtering: svd**
+- RMSE: 0.8989
+- Precision:  0.86
+- Recall:  0.797
+- F_1 score:  0.827
+
+**Model Name: svd_optimized**
+- RMSE: 0.8899
+- Precision:  0.862
+- Recall:  0.796
+- F_1 score:  0.828
 
 
 ## Licensing, Authors, and Acknowledgements
