@@ -1,4 +1,4 @@
-# Amazon_Product_Recommendation_System
+# Amazon Style Product Recommendation System
 This project focuses on building a recommendation system for Amazon. It utilizes various recommendation system models to suggest products to customers based on their previous ratings for other products.
 
 ## Table of Contents
@@ -22,6 +22,20 @@ Scenario : As a Data Science Manager at Amazon, I was tasked to build a recommen
 ## File Descriptions
 The repository contains the following file:
 - `Amazon_Product_Recommendation_System.ipynb`: This is the Google Colab Notebook where all the work is done, which includes data loading, preprocessing, exploratory data analysis, model building, and evaluation.
+
+## Dataset Information
+
+The dataset employed for this project is comprehensive and offers the following insights:
+
+- It contains a total of **7,824,481** entries.
+- The three columns are: `'user_id'`, `'prod_id'`, and `'rating'`, none of which contain null values.
+- The `'user_id'` column contains **4,201,696 unique** users, with the most frequent user being `'A5JLAU2ARJ0BO'`, who appears 520 times.
+- The `'prod_id'` column contains **476,001 unique** products, with the most rated product being `'B0074BW614'`, receiving 18,244 ratings.
+- Ratings in the `'rating'` column are integers ranging from 1 to 5. The most frequent rating is **5.0**, appearing 4,347,540 times.
+
+### Sparse Nature of Recommendation Systems
+
+Recommendation systems often deal with sparse data, mainly due to the large number of available items and the limited number of items each user has rated. This dataset is no exception, as the 7,824,481 entries represent only a tiny fraction of the 2,000,011,497,696 possible user-product combinations, leading to a completion of approximately **3.91 * 10^-4 %**. This scarcity poses challenges and dictates the type of recommendation algorithms that can be
 
 ## Results
 We compared different models and found that the optimized Matrix Factorization model-based collaborative filtering (svd_optimized) stood out as a strong performer, offering accurate and personalized recommendations.
